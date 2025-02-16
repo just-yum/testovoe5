@@ -1,0 +1,17 @@
+.my-input {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2A3942;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-overflow: ellipsis;
+
+  color: #D3D9DB;
+
+  &:disabled {
+    background-color: #142529;
+    border: 1px solid rgba(211, 217, 219, 0.35);
+  }
+}

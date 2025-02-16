@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  .form {
+    & > * {
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #005C4B;
+      color: #D3D9DB;
+      padding: 10px 15px;
+      border-radius: 8px;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
